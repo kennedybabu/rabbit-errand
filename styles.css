@@ -26,11 +26,10 @@
     padding: .5rem 1rem;
 }
 
-#nav a:hover {
-    border: 1px solid var(--red);
-    border-radius: 15px;
-    padding: .5rem .5rem;
+span {
+    color: var(--red);
 }
+
 
 .hero-container {
     background-image: url(https://images.unsplash.com/photo-1600518464441-9154a4dea21b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1786&q=80);
@@ -66,6 +65,30 @@ body > section > div > div > div.user-input.mt-3 > form > div:nth-child(2) > but
 }
 
 .partners {
-    height: auto;
-    display: flex;    
+    height: 20vh;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.app,
+.reviews,
+.partnered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partnered img {
+    width: 300px;
+    height: 150px;
+}
+
+.app img {
+    width: 150px;
+    height: 80px;
+}
+
+.reviews img {
+    width: 250px;
+    height: 60px 
 }
