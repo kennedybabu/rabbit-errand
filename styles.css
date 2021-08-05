@@ -6,8 +6,10 @@
 }
 
 .footer-container {
-    background-color:rgb(241, 250, 238);
+    background-color:rgb(29, 53 , 87 );
     padding-bottom: 4rem;
+    height: 100%;
+    width: 100%;
 }
 
 .footer {
